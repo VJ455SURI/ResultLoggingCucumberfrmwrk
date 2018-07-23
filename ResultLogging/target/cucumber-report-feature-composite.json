@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 909194,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test if passed test is logged properly",
+        "description": "",
+        "id": "testing-the-resultlogging-feature;test-if-passed-test-is-logged-properly",
+        "after": [
+          {
+            "result": {
+              "duration": 84248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "A test is run",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the test is passed",
+            "match": {
+              "location": "StepDefinitions.the_test_is_passed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the passed test is logged",
+            "match": {
+              "location": "StepDefinitions.the_passed_test_is_logged()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 76123,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Test if failed test is logged properly",
+        "description": "",
+        "id": "testing-the-resultlogging-feature;test-if-failed-test-is-logged-properly",
+        "after": [
+          {
+            "result": {
+              "duration": 29508,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "A failed test is run",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the test is failed",
+            "match": {
+              "location": "StepDefinitions.the_test_is_failed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the failed test is logged",
+            "match": {
+              "location": "StepDefinitions.the_failed_test_is_logged()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the ResultLogging Feature",
+    "description": "",
+    "id": "testing-the-resultlogging-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/TestLog.feature",
+    "tags": []
+  }
+]
