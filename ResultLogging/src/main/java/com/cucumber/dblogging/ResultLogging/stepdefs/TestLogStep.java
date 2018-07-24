@@ -4,9 +4,9 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
 
-public class StepDefinitions {
+public class TestLogStep {
 	
-    @Given("^A test is run $")
+    @Given("^A test is run$")
     public void a_test_is_run() throws Throwable {
        System.out.println("scenario 1 step1");
     }
@@ -21,7 +21,7 @@ public class StepDefinitions {
     	System.out.println("scenario 1 step3");
     }
     
-    @Given("^A failed test is run $")
+    @Given("^A failed test is run$")
     public void a_failed_test_is_run() throws Throwable {
     	System.out.println("scenario 2 step1");
     }

@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="TestNG logs sample(failed)">
     <classes>
-      <class name="com.cucumber.dblogging.ResultLogging.TestRunner">
+      <class name="com.cucumber.dblogging.ResultLogging.stepdefs.TestRunner">
         <methods>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
           <include name="scenario" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.cucumber.dblogging.ResultLogging.TestRunner -->
+      </class> <!-- com.cucumber.dblogging.ResultLogging.stepdefs.TestRunner -->
     </classes>
   </test> <!-- TestNG logs sample(failed) -->
 </suite> <!-- Failed suite [Log Suite Example] -->

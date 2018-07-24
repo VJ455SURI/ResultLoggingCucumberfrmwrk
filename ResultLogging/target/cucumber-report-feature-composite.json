@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 909194,
+              "duration": 1040057,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 84248,
+              "duration": 64149,
               "status": "passed"
             },
             "match": {
@@ -34,32 +34,37 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 195011,
+              "status": "passed"
             },
             "line": 4,
             "name": "A test is run",
-            "match": {},
+            "match": {
+              "location": "TestLogStep.a_test_is_run()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 227940,
+              "status": "passed"
             },
             "line": 5,
             "name": "the test is passed",
             "match": {
-              "location": "StepDefinitions.the_test_is_passed()"
+              "location": "TestLogStep.the_test_is_passed()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72274,
+              "status": "passed"
             },
             "line": 6,
             "name": "the passed test is logged",
             "match": {
-              "location": "StepDefinitions.the_passed_test_is_logged()"
+              "location": "TestLogStep.the_passed_test_is_logged()"
             },
             "keyword": "Then "
           }
@@ -69,7 +74,7 @@
         "before": [
           {
             "result": {
-              "duration": 76123,
+              "duration": 124020,
               "status": "passed"
             },
             "match": {
@@ -84,7 +89,7 @@
         "after": [
           {
             "result": {
-              "duration": 29508,
+              "duration": 36351,
               "status": "passed"
             },
             "match": {
@@ -97,32 +102,37 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 106059,
+              "status": "passed"
             },
             "line": 9,
             "name": "A failed test is run",
-            "match": {},
+            "match": {
+              "location": "TestLogStep.a_failed_test_is_run()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 130862,
+              "status": "passed"
             },
             "line": 10,
             "name": "the test is failed",
             "match": {
-              "location": "StepDefinitions.the_test_is_failed()"
+              "location": "TestLogStep.the_test_is_failed()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 74840,
+              "status": "passed"
             },
             "line": 11,
             "name": "the failed test is logged",
             "match": {
-              "location": "StepDefinitions.the_failed_test_is_logged()"
+              "location": "TestLogStep.the_failed_test_is_logged()"
             },
             "keyword": "Then "
           }

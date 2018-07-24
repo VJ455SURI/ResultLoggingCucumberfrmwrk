@@ -1,6 +1,0 @@
-com\cucumber\dblogging\ResultLogging\App.class
-com\cucumber\dblogging\ResultLogging\stepdefs\StepDefinitions.class
-com\cucumber\dblogging\ResultLogging\Utilities\DBConnections.class
-com\cucumber\dblogging\ResultLogging\Utilities\ResultLogListener.class
-com\cucumber\dblogging\ResultLogging\TestRunner.class
-com\cucumber\dblogging\ResultLogging\stepdefs\ServiceHooks.class

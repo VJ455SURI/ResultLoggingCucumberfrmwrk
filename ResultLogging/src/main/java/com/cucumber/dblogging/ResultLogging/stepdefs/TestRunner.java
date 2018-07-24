@@ -1,4 +1,4 @@
-package com.cucumber.dblogging.ResultLogging;
+package com.cucumber.dblogging.ResultLogging.stepdefs;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
-@CucumberOptions(features = "src/test/resources/", plugin = "json:target/cucumber-report-feature-composite.json", glue = {"com.cucumber.dblogging.ResultLogging.stepdefs"})
+@CucumberOptions(features = "src/test/resources", glue = {"com.cucumber.dblogging.ResultLogging.stepdefs"}, plugin = "json:target/cucumber-report-feature-composite.json")
 public class TestRunner {
 private TestNGCucumberRunner testNGCucumberRunner;
 

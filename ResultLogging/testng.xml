@@ -6,7 +6,7 @@
 
 	<test name="TestNG logs sample" preserve-order="true">
 		<classes>
-			<class name="com.cucumber.dblogging.ResultLogging.TestRunner">
+			<class name="com.cucumber.dblogging.ResultLogging.stepdefs.TestRunner">
 				
 			</class>
 		</classes>
